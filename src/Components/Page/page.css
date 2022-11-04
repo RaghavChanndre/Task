@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.card-holder{
+    display: flex;
+    justify-content: center;
+    background-color: pink;
+    padding-top: 5px;
+    
+}
+.C1{
+    background-color: #fff;
+    padding:  20px;
+    margin-top: 150px;
+    margin-bottom: -150px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+   margin-right: 25px;
+}
+.C2{
+    background-color: #fff;
+    padding:  20px;
+    margin-top: 50px;
+    margin-bottom: -50px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+   margin-right: 25px;
+
+   
+  
+    
+}
+
+.card-para{
+    font-size: 20px;
+    text-align: center;
+
+}
+
+
+
+.card-head{
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.card-head2{
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+
+
+
+
+.black {
+    background-color: black;
+    padding-top: 200px;
+    
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+}
+.left-bg{
+   padding-right: 25px;
+   justify-content: flex-start;
+   display: flex;
+ 
+}
+.left-head{
+    font-weight: 400;
+    font-size: 45px;
+    margin-left: 120px;
+
+}
+
+.right-bg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.right-para{
+    font-size: 20px;
+    padding: 0 80px;
+}
+
+i{
+    text-align: center;
+    font-size: 40px;
+}
+
+.btn{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    border: 1px solid #fff;
+    text-decoration: none;
+    padding: 10px 50px;
+    text-align: left;
+    text-transform: left;
+}
